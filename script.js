@@ -36,7 +36,7 @@ if (contactForm && formStatus) {
     e.preventDefault();
 
     formStatus.textContent =
-      "Thank you for your inquiry. This demo form does not send emails yet—connect it to a backend or email service for production use.";
+      "Thank you for your inquiry. This demo form does not send emails yet—connect it to a backend or Formspree endpoint for production use.";
     formStatus.style.color = "#2563eb";
 
     contactForm.reset();
