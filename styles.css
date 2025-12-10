@@ -208,7 +208,7 @@ body {
 
 .hero-subtitle {
   color: var(--text-muted);
-  max-width: 580px;
+  max-width: 620px;
   margin-bottom: 1.7rem;
 }
 
@@ -230,7 +230,12 @@ body {
   border: 1px solid transparent;
   text-decoration: none;
   cursor: pointer;
-  transition: background var(--transition), color var(--transition), border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+  transition:
+    background var(--transition),
+    color var(--transition),
+    border-color var(--transition),
+    box-shadow var(--transition),
+    transform var(--transition);
 }
 
 .primary-btn {
@@ -320,7 +325,7 @@ body {
 }
 
 .hero-bar-1 { height: 45%; }
-hero-bar-2 { height: 70%; }
+.hero-bar-2 { height: 70%; }
 .hero-bar-3 { height: 55%; }
 .hero-bar-4 { height: 85%; }
 
@@ -377,7 +382,10 @@ hero-bar-2 { height: 70%; }
   border: 1px solid var(--border);
   padding: 1.4rem 1.3rem;
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
-  transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+  transition:
+    box-shadow var(--transition),
+    transform var(--transition),
+    border-color var(--transition);
 }
 
 .card:hover {
@@ -492,6 +500,12 @@ hero-bar-2 { height: 70%; }
   color: var(--text-muted);
 }
 
+.contact-note {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 .contact-form {
   background: #f9fafb;
   border-radius: var(--radius-lg);
@@ -519,7 +533,10 @@ textarea {
   padding: 0.6rem 0.7rem;
   font-family: inherit;
   font-size: 0.9rem;
-  transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
+  transition:
+    border-color var(--transition),
+    box-shadow var(--transition),
+    background var(--transition);
 }
 
 input:focus,
